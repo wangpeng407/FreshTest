@@ -12,6 +12,8 @@
 
 
 ### 2. 软链/TJPROJ1/MICRO/wangpeng/NewTest/ linux_file/test.m8到自己的01.Linux目录下：
+   
+   注：先将/TJPROJ1/MICRO/wangpeng/NewTest/TEST.log拷贝到自己的NG_xxx目录下，将1）-10）的答案按格式写到TEST.log中
 
 - 1）统计文件总行数（）
 
@@ -85,7 +87,7 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
 
 #### 4.1 将/TJPROJ1/MICRO/wangpeng/NewTest/test_stats下的两个文件” genus.mat.xls”（属丰度表）和” group.list”（样本分组表）拷贝到自己目录下，并回答下列问题
 
-- 1）简述T-test和Wilcox test的异同点。
+- 1）简述T-test和Wilcox test的异同点（将答案写到TEST.log中）。
     
 - 2） 使用T-test或Wilcox test对genus.mat.xls中的每个物种进行组间差异检验，并校正p值得到q值，输出结果命名为“test.out.xls”，结果格式为“genus_id  diff_meanStatistics  p-value  q-value”。
     
@@ -95,7 +97,7 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
        
 #### 4.2 将/TJPROJ1/MICRO/wangpeng/NewTest/correlation下的属丰度文件“genus.rela.xls”和环境因子文件“env.xls”拷贝到自己目录下，回答以下问题：
 
-- 1）简述spearman相关系数和pearson相关系数的异同
+- 1）简述spearman相关系数和pearson相关系数的异同（将答案写到TEST.log中）。
     
 - 2）对属和环境因子作spearman关联分析，得到相关系数矩阵和p值矩阵，输出文件名为“correlation.xls”和“pvalue.xls”
     
