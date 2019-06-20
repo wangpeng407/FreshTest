@@ -33,7 +33,7 @@
 
 - 9）根据片段长度>100<=500，筛选seq.len.xls文件，并降序输出到新文件sort.seq.len.xls
 
-- 10）将sort.seq.len.xls第一列字段中所有的点（.）替换成’_test_’，输出到新文件sed.sort.seq.len.xls
+- 10）将sort.seq.len.xls第一列字段中所有的点（.）替换成_test_，输出到新文件sed.sort.seq.len.xls
 
 - 11）将上述所有的运行命令记录在脚本work.sh中
 
