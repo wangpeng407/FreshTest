@@ -107,6 +107,27 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
  
 ---
 
+#### 4.3 （选做）将/TJPROJ1/MICRO/wangpeng/NewTest/venn_stat下的文件拷贝到自己目录下，回答以下问题：
+
+   - 请写一个脚本，名为VennStatGroupSplit.pl，该脚本需要完成以下功能:
+      
+      - a 如果某个taxa在某一组之内的平均丰度<1e-5 且出现频率<0.01，则将该taxa在该组中定为0
+      
+      例：f__Rikenellaceae;g__Alistipes在L1DCM组中的丰度分别为1.67E-05	8.27E-06	1.32E-05	2.61E-05	0	0	6.11E-06	1.55E-05	5.31E-06	0；平均丰度为9.119e-06，frequency为0.7（先转化为1 1 1 1 0 0 1 1 1 0，7/10=0.7），不满足条件，则该taxa在L1DCM中则为0
+      
+      - b 将Unigenes.relative.g.xls按着8个组拆分开，输出8个子文件
+      
+      运行方式如下但不限：
+      
+      ```perl VennStatGroupSplit.pl all.mf  Unigenes.relative.g.xls --frequency 0.01 --total_avgerage 1e-5 --SingleMat --suffix split.xls > venn.group.stat.xls```
+      
+      
+      输出结果在/TJPROJ1/MICRO/wangpeng/NewTest/venn_stat下查看
+      
+
+
+
+
 **<center> <font color=#1E90FF size=4.5> 将所有写的脚本的权限改成755 </font> </center>**
 
 
