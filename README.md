@@ -93,7 +93,7 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
     
 - 3）针对2）中检验出的差异物种（如果qvalue无显著性，请按照pvalue筛选），进行箱线图的绘制。
     
-    注：所写脚本命名为test.stat.R；绘图脚本命名为boxplot.R，可视化绘图可尝试使用ggplot2。结果文件可参考example文件夹下的test.result.xls和diff.taxa.boxplot.pdf
+    注：所写脚本命名为test.stat.R；绘图脚本命名为boxplot.R，可视化绘图可尝试使用ggplot2。结果文件可参考[example](https://github.com/wangpengnovos/FreshTest/tree/master/example)文件夹下的test.result.xls和diff.taxa.boxplot.pdf
        
 #### 4.2 将/TJPROJ1/MICRO/wangpeng/NewTest/correlation下的属丰度文件“genus.rela.xls”和环境因子文件“env.xls”拷贝到自己目录下，回答以下问题：
 
@@ -103,7 +103,7 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
     
 - 3）对相关系数矩阵进行热图绘制，并标注显著性，
     
-    注：所写脚本命名为cor.stat.plot.R；计算相关系数时，不要进行p校正；计算相关系数可使用R包psych，热图绘制可使用pheatmap或ComplexHeatmap。结果文件可参考example下的correlation.xls、pvalue.xls和cor.heat.pdf
+    注：所写脚本命名为cor.stat.plot.R；计算相关系数时，不要进行p校正；计算相关系数可使用R包psych，热图绘制可使用pheatmap或ComplexHeatmap。结果文件可参考[example](https://github.com/wangpengnovos/FreshTest/tree/master/example)下的correlation.xls、pvalue.xls和cor.heat.pdf
  
 ---
 
@@ -122,10 +122,8 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
       ```perl VennStatGroupSplit.pl all.mf  Unigenes.relative.g.xls --frequency 0.01 --total_avgerage 1e-5 --SingleMat --suffix split.xls > venn.group.stat.xls```
       
       
-      输出结果在/TJPROJ1/MICRO/wangpeng/NewTest/venn_stat下查看
+      输出结果可查看/TJPROJ1/MICRO/wangpeng/NewTest/venn_stat下文件
       
-
-
 
 
 **<center> <font color=#1E90FF size=4.5> 将所有写的脚本的权限改成755 </font> </center>**
