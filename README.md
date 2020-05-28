@@ -94,6 +94,8 @@ A0.1_100|WP_055270727.1|95.0|0.317073170731707|1.7e-13|1.7e-12|
 - 3）针对2）中检验出的差异物种（如果qvalue无显著性，请按照pvalue筛选），进行箱线图的绘制。
     
     注：所写脚本命名为test.stat.R；绘图脚本命名为boxplot.R，可视化绘图可尝试使用ggplot2。结果文件可参考[example](https://github.com/wangpengnovos/FreshTest/tree/master/example)文件夹下的test.result.xls和diff.taxa.boxplot.pdf
+
+<div align=center><img src="https://github.com/wangpengnovos/FreshTest/blob/master/example/cor.heat.pdf"/></div>
        
 #### 4.2 将/TJPROJ1/MICRO/wangpeng/NewTest/correlation下的属丰度文件“genus.rela.xls”和环境因子文件“env.xls”拷贝到自己目录下，回答以下问题：
 
